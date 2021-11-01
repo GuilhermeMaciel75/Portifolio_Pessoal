@@ -1,0 +1,332 @@
+
+html, body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+    background: #3D3D3D;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    max-width: 1100;
+    height: 68px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    background: #0077B6;
+}
+
+article{
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    right: 0px;
+    top: 50vh;
+    
+
+    background: #0077B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 0px 0px 25px;
+}
+
+footer{
+    position: absolute;
+    width: 100vw;
+    height: 46px;
+    left: 0px;
+    width: 100%;
+    top: 100vh;
+    
+    background: #0077B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div{
+    position: absolute;
+    min-width: 320px;
+    width: 30%;
+    
+    height: 424px;
+    left: -150px;
+    top: 25%;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #0077B6;
+    border-radius: 20px;
+}
+
+/*:hover, MUDAR A COR QUANDO PASSAR POR SIMA*/ 
+.foto_perfil{
+    position: absolute;
+    width: 171px;
+    height: 68px;
+    height: 250%;
+    left: 45%;
+    top: 16px;
+    border-radius: 100px;
+    margin: auto;
+
+    background: url(.jpg)
+}
+
+.pagina{
+    position: absolute;
+    width: 10%;
+    height: 39px;
+    left: 15%;
+    top: 11px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+}
+
+.curriculo{
+    left: 75%;
+}
+
+
+
+
+.texto{
+
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 7%;
+    top: 25%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    
+
+    text-align: center;
+
+    color: white;
+}
+
+.icon{
+    position: absolute;
+    width: 2%;
+    left: 5%;
+    top: 15%;
+
+    background: url(.png);
+}
+
+.github{
+    left: 30%;    
+}
+
+.git{
+
+    left: 27%;
+}
+
+.instagram{
+
+    left: 57%;
+
+}
+
+.insta{
+
+    left: 54%;
+    }
+
+.whatsapp{
+    left: 82%;
+}
+
+.whats{
+
+    left: 80%;
+
+}
+
+h1{
+    position: absolute;
+    width: 25%;
+    height: 46px;
+    top: 190px;
+    left: 40%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+
+h3{
+    position: absolute;
+    width: auto;
+    height: 10%;
+    left: 37%;
+   
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    color: #FFFFFF;
+}
+
+ul{
+    position: absolute;
+    width: 45%;
+    height: 70%;
+    left: 170px;
+    top: 15%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    display: block;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+picture{
+    position: absolute;
+    width: 20%;
+    height: 150px;
+    right: 0;
+    top: 15%;
+
+    background: #0077B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 0px 0px 25px;
+}
+
+.cin{
+
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    right: 0px;
+    top: 30px;
+    
+    background: url(.png); 
+}
+
+
+@media (max-width: 1024px) {
+
+    .pagina{
+        left: 10%;
+        font-size: 24px;
+    }
+
+    .curriculo{
+        left: 70%;
+    }
+
+    h1{
+        font-size: 28px;
+        text-align: center;
+        top: 26%;
+        left: 39%;
+    }
+
+    ul{
+        font-size: 16px;
+        left: 40%;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    div > h3{
+        font-size: 18px;
+        left: 50%;
+    }
+    
+    .texto{
+        font-size: 8px;
+    }
+
+    .foto_perfil{
+        left: 38%;
+        height: 200%;
+        width: 30%;
+    }
+
+    .icon{
+        width: 3%;
+        top:35%;
+    }
+
+    .texto{
+        left: 9%;
+        top: 26%
+    }
+    .github{
+        left: 31%;
+    }
+
+    .instagram{
+        left: 58%;
+    }
+
+    .whatsapp{
+        left: 84%;
+        font-size: 7px;
+    }
+
+    div{
+        height: 70%;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    div > h3{
+        font-size: 18px;
+        left: 50%;
+    }
+    
+    ul{
+        font-size: 16px;
+        left: 40%;
+    }   
+
+    
+    h3{
+        font-size: 22px;
+    }
+
+    .icon{
+        top: 25%;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+}
+

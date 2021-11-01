@@ -1,0 +1,538 @@
+html{
+    position: relative;
+    width: 100vmax;
+    height: 3400px;
+
+    background: #3D3D3D;
+}
+
+header{
+    position: absolute;
+    width: 100vmax;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+
+    background: #0077B6;
+}
+
+.foto_perfil{
+    position: absolute;
+    width: 171px;
+    height: 168px;
+    left: 45%;
+    top: 16px;
+    border-radius: 100px;
+
+    background: url(.jpg)
+}
+
+.aprojetos{
+    position: absolute;
+    width: 139px;
+    height: 39px;
+    left: 15%;
+    top: 11px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+}
+
+.ahome{
+    position: absolute;
+    width: 154px;
+    height: 39px;
+    right: 15%;
+    top: 11px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration: none;
+    
+    
+    color: #FFFFFF;
+}
+
+footer{
+    position: absolute;
+    width: 100vmax;
+    height: 46px;
+    left: 0px;
+    bottom: 0;
+    
+    background: #0077B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linkedin{
+
+    position: absolute;
+    width: 210px;
+    height: 21px;
+    left: 7%;
+    top: 25%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    
+
+    text-align: center;
+
+    color: white;
+}
+
+.linkedin_icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 5%;
+    top: 7px;
+
+    background: url(.png);
+}
+
+.github{
+    position: absolute;
+    width: 156px;
+    height: 21px;
+    left: 30%;
+    top: 25%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    
+    text-align: center;
+    
+    color: #FFFFFF;  
+}
+
+.github_icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 27%;
+    top: 7px;
+
+    background: url(.png);
+}
+
+.instagram{
+    position: absolute;
+    width: 156px;
+    height: 21px;
+    left: 57%;
+    top: 25%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.instagram_icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 54%;
+    top: 7px;
+
+    background: url(.png);
+    }
+
+.whatsapp{
+    display: block;
+    position: absolute;
+    width: 210px;
+    height: 21px;
+    left: 82%;
+    top: 30%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.whatsapp_icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 80%;
+    top: 8px;
+
+    background: url(.png);
+}
+
+.objetivos{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 60px;
+    top: 218px;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.objetivos_titulo{
+    position: absolute;
+    width: 140px;
+    height: 34px;
+    left: 200px;
+    top: 10px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.objetivos_lista{
+    position: absolute;
+    width: 365px;
+    height: 140px;
+    left: 48px;
+    top: 100px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.hist_academico{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    right: 60px;
+    top: 218px;
+
+    background: #0077B6;
+    border-radius: 25px;
+    }
+
+.hist_academico_titulo{
+    position: absolute;
+    width: 304px;
+    height: 34px;
+    left: 160px;
+    top: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.titulo_ufpe{
+    position: absolute;
+    width: 500px;
+    height: 67px;
+    left: 40px;
+    top: 62px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.texto_ufpe{
+    position: absolute;
+    width: 400px;
+    height: 67px;
+    left: 44px;
+    top: 145px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.titulo_upe{
+    position: absolute;
+    width: 365px;
+    height: 61px;
+    left: 40px;
+    top: 160px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.texto_upe{
+    position: absolute;
+    width: 400px;
+    height: 61px;
+    left: 44px;
+    top: 243px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.titulo_colegio{
+    position: absolute;
+    width: 365px;
+    height: 99px;
+    left: 40px;
+    top: 275px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.texto_colegio{
+    position: absolute;
+    width: 365px;
+    height: 99px;
+    left: 44px;
+    top: 360px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.conhecimentos{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 60px;
+    top: 850px;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.conhecimento_titulo{
+
+    position: absolute;
+    width: 140px;
+    height: 34px;
+    left: 160px;
+    top: 10px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.lista_conhecimentos{
+    position: absolute;
+    width: 365px;
+    height: 540px;
+    left: 59px;
+    top: 90px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.softskills{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    right: 60px;
+    top: 850px;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.titulo_soft{
+    position: absolute;
+    width: 232px;
+    height: 34px;
+    left: 220px;
+    top: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.lista_soft{
+
+    position: absolute;
+    width: 365px;
+    height: 540px;
+    left: 59px;
+    top: 80px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+
+.certificacoes{
+    position: absolute;
+    width: 550px;
+    height: 1250px;
+    left: 60px;
+    top: 1500px;
+
+    background: #0077B6;
+    border-radius: 25px;
+
+}
+
+.certificacoes_titulo{
+
+    position: absolute;
+    width: 232px;
+    height: 34px;
+    left: 190px;
+    top: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.titulo_certificados_{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 56px;
+    top: 1035px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.experiencias{
+
+    position: absolute;
+    width: 550px;
+    height: 1250px;
+    right: 60px;
+    top: 1500px;
+
+    background: #0077B6;
+    border-radius: 25px;
+
+}
+
+.dowload_curriculo{
+    position: absolute;
+    width: 866px;
+    height: 71px;
+    left: 25%;
+
+    text-align: center;
+    text-anchor: middle;
+
+    color: white;
+    font-size: 28px;
+    top: 3000px;
+
+    text-decoration: none;
+    background: #0077B6;
+    border-radius: 25px;
+}
