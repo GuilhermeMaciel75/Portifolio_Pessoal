@@ -16,6 +16,10 @@ header{
     background: #0077B6;
 }
 
+body{
+    flex-wrap: wrap;
+}
+
 .foto_perfil{
     position: absolute;
     width: 171px;

@@ -1,4 +1,3 @@
-
 html, body{
     padding: 0;
     margin: 0;
@@ -35,9 +34,16 @@ article{
     border-radius: 25px 0px 0px 25px;
 }
 
+.texto_about{
+    color: white;
+    margin-left: 2%;
+    margin-top: 10%;
+    margin-right: 2%;
+    text-align:justify;
+}
+
 footer{
     position: absolute;
-    width: 100vw;
     height: 46px;
     left: 0px;
     width: 100%;
@@ -49,7 +55,6 @@ footer{
 
 div{
     position: absolute;
-    min-width: 320px;
     width: 30%;
     
     height: 424px;
@@ -63,10 +68,12 @@ div{
 
 /*:hover, MUDAR A COR QUANDO PASSAR POR SIMA*/ 
 .foto_perfil{
+    display: block;
     position: absolute;
     width: 171px;
-    height: 68px;
-    height: 250%;
+    height: 171px;
+    align-items: center;
+    
     left: 45%;
     top: 16px;
     border-radius: 100px;
@@ -97,15 +104,12 @@ div{
     left: 75%;
 }
 
-
-
-
 .texto{
 
     position: absolute;
     width: 15%;
     height: 10%;
-    left: 7%;
+    left: 3%;
     top: 25%;
 
     font-family: Montserrat;
@@ -124,49 +128,59 @@ div{
 .icon{
     position: absolute;
     width: 2%;
-    left: 5%;
+    left: 2%;
     top: 15%;
 
     background: url(.png);
 }
 
 .github{
-    left: 30%;    
+    left: 20%;    
 }
 
 .git{
 
-    left: 27%;
+    left: 18%;
 }
 
 .instagram{
 
-    left: 57%;
+    left: 38%;
 
 }
 
 .insta{
 
-    left: 54%;
+    left: 36%;
     }
 
+.email{
+    left: 57%;
+}
+
+.e-mail{
+    left: 54%;
+}
+
 .whatsapp{
-    left: 82%;
+    left: 84%;
 }
 
 .whats{
 
-    left: 80%;
+    left: 82%;
 
 }
 
 h1{
     position: absolute;
-    width: 25%;
+    width: 100%;
     height: 46px;
     top: 190px;
     left: 40%;
+    align-items: center;
 
+    display: inline;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -178,6 +192,8 @@ h1{
 
 h3{
     position: absolute;
+    margin-top: 2%;
+    align-items: center;
     width: auto;
     height: 10%;
     left: 37%;
@@ -235,7 +251,7 @@ picture{
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
 
     .pagina{
         left: 10%;
@@ -266,15 +282,12 @@ picture{
         font-size: 18px;
         left: 50%;
     }
-    
-    .texto{
-        font-size: 8px;
-    }
 
     .foto_perfil{
-        left: 38%;
-        height: 200%;
-        width: 30%;
+        display: block;
+        left: 41%;
+        height: 120px;
+        width: 120px;
     }
 
     .icon{
@@ -284,7 +297,8 @@ picture{
 
     .texto{
         left: 9%;
-        top: 26%
+        top: 26%;
+        font-size: 8px;
     }
     .github{
         left: 31%;
@@ -305,28 +319,162 @@ picture{
 
 }
 
-@media (max-width: 1500px) {
-    div > h3{
-        font-size: 18px;
-        left: 50%;
-    }
-    
-    ul{
-        font-size: 16px;
-        left: 40%;
-    }   
+@media (max-width: 426px) {
 
-    
-    h3{
-        font-size: 22px;
+    nav{
+        height: 50px;
+    }
+
+    .pagina{
+        font-size: 18px;
+    }
+
+    .foto_perfil{
+        height: 100px;
+        width: 100px;
+        align-items: center;
+    }
+
+    .texto_about{
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 11px;
+    }
+
+    article{
+        height: 70%;
+        top: 25%;
+
+    }
+
+    div{
+        top: 25%;
+        left: -50px;
+        width: 50%;
+        height: 55%;
+    }
+
+    div > h3{
+        font-size: 12px;
+        left: 40%;
+    }
+
+    article > h3{
+        font-size: 12px;
+    }
+
+    ul{
+        font-size: 10px;
+        top: 8%;
+        left: 25%;
+    }
+
+    h1{
+        font-size: 20px;
+        top: 15%;
+        left: auto;
+    }
+
+    footer{
+        height: 30px;
+        bottom: 0vh;
     }
 
     .icon{
-        top: 25%;
+        width: 3%;
+        top:35%;
     }
 
     .texto{
-        font-size: 14px;
+        font-size: 4px;
+        left: 5%;
+        top: 15%;
+    }
+    .github{
+        left: 23%;
+    }
+
+    .git{
+        left: 19%;
+    }
+    .email{
+        left: 60%;
+    }
+
+    .e-mail{
+        left: 56% ;
+    }
+
+    .instagram{
+        left: 41%;
+    }
+
+    .insta{
+        left: 39%;
+    }
+
+    .whatsapp{
+        left: 85%;
+        font-style: bold;
+        font-size: 4px;
+    }
+
+    .whats{
+        left: 83%;
+    }
+    picture{
+        top: 9%;
+        height: 10%;
+    
+    }
+    .cin{
+        
+        top: 25%;
     }
 }
 
+@media (max-width: 376px) {
+
+    .texto_about{
+        font-size: 10px;
+    }
+
+    article{
+        top: 30%;
+        height: 67%;
+    }
+    
+}
+
+@media (max-width:320px) {
+
+    .texto_about{
+        font-size: 9.5px;
+    }
+
+    div{
+        height: 59%;
+    }
+
+    div > h3{
+        left: 34%;
+    }
+
+    article{
+        height: 73%;
+        top: 25%;
+    }
+
+    article > h3{
+        margin-top: 0;
+    }
+    
+    .email{
+       font-size: 3.5px; 
+    }
+
+    .insta{
+        left:38%
+    }
+}
