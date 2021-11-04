@@ -94,7 +94,7 @@ div{
     width: 10%;
     height: 39px;
     left: 15%;
-    top: 11px;
+    top: 25%;
 
     text-align: center;
     font-family: Montserrat;
@@ -276,6 +276,7 @@ picture{
 @media (max-width: 1024px) {
 
     .pagina{
+        top: 12%;
         left: 10%;
         font-size: 24px;
     }
@@ -568,7 +569,7 @@ picture{
     }
     .cin{
         
-        top: 25%;
+        top: 20%;
     }
 }
 
@@ -578,6 +579,10 @@ picture{
         font-size: 9.3px;
     }
 
+    .foto_perfil{
+        left: 38%;
+    }
+
     article{
         top: 40%;
         height: 52%;
@@ -585,7 +590,7 @@ picture{
 
     h1{
         width: 80%;
-        left: 14%;
+        left: 12%;
     }
 
     picture{

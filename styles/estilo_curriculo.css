@@ -659,6 +659,7 @@ footer{
     .pagina{
        font-size: 18px;
         left: 10%;
+        top: 12%;
     }
     
     .curriculo{
@@ -668,7 +669,7 @@ footer{
     .foto_perfil{
         width: 100px;
         height: 100px;
-        left: 35%;
+        left: 38%;
     }
     
     h1{
@@ -682,10 +683,12 @@ footer{
     }
 
     .objetivos{
+        
         top: 8%;
     }
 
     .objetivos_lista{
+        width: 90%;
         font-size: 14px;
         left: -7%;
         top: 7%;
@@ -836,7 +839,7 @@ footer{
     .texto{
         font-size: 4px;
         left: 5%;
-        top: 20%;
+        top: 25%;
     }
     .github{
         left: 23%;
@@ -856,7 +859,7 @@ footer{
     }
 
     .email{
-        font-size: 3.5px; 
+        font-size: 4.5px; 
         left: 60%;
      }
  
