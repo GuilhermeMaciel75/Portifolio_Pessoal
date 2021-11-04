@@ -1,3 +1,4 @@
+/*Atributos básicos da página*/
 html, body{
     padding: 0;
     margin: 0;
@@ -9,6 +10,7 @@ html, body{
     background: #3D3D3D;
 }
 
+/*Estilização barra de navegação*/
 nav{
     position: absolute;
     width: 100%;
@@ -21,6 +23,7 @@ nav{
     background: #0077B6;
 }
 
+/*Estilização Área about me*/
 article{
     position: absolute;
     width: 45%;
@@ -34,6 +37,7 @@ article{
     border-radius: 25px 0px 0px 25px;
 }
 
+/*Estilização texto about me*/
 .texto_about{
     color: white;
     margin-left: 2%;
@@ -42,6 +46,7 @@ article{
     text-align:justify;
 }
 
+/*Estilização barra de informações */
 footer{
     position: absolute;
     height: 46px;
@@ -53,6 +58,7 @@ footer{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/*Estilização barra de conhecimentos*/
 div{
     position: absolute;
     width: 30%;
@@ -66,7 +72,7 @@ div{
     border-radius: 20px;
 }
 
-/*:hover, MUDAR A COR QUANDO PASSAR POR SIMA*/ 
+/*Estilização foto de perfil*/ 
 .foto_perfil{
     display: block;
     position: absolute;
@@ -82,6 +88,7 @@ div{
     background: url(.jpg)
 }
 
+/*Estilização Opções de navegação*/
 .pagina{
     position: absolute;
     width: 10%;
@@ -89,6 +96,7 @@ div{
     left: 15%;
     top: 11px;
 
+    text-align: center;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -100,10 +108,16 @@ div{
     color: #FFFFFF;
 }
 
+.pagina:hover{
+    background-color: #0088d0;
+    border-radius: 25px;
+}
+
 .curriculo{
     left: 75%;
 }
 
+/*Estilização barra de informações*/
 .texto{
 
     position: absolute;
@@ -123,6 +137,10 @@ div{
     text-align: center;
 
     color: white;
+}
+
+.texto:hover{
+    font-weight: bold;
 }
 
 .icon{
@@ -172,15 +190,15 @@ div{
 
 }
 
+/*Estilização meu nome*/
 h1{
     position: absolute;
     width: 100%;
     height: 46px;
     top: 190px;
-    left: 40%;
-    align-items: center;
-
-    display: inline;
+    text-align: center;
+    
+    display: block;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -190,25 +208,28 @@ h1{
     color: #FFFFFF;
 }
 
+/*Estilização do Conhecimentos e do About me*/
+
 h3{
     position: absolute;
     margin-top: 2%;
     align-items: center;
     width: auto;
     height: 10%;
-    left: 37%;
+    left: 38%;
    
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
 
 
     color: #FFFFFF;
 }
 
+/*Estilização lista*/
 ul{
     position: absolute;
     width: 45%;
@@ -227,6 +248,7 @@ ul{
     color: #FFFFFF;
 }
 
+/*Estilização logo cin*/
 picture{
     position: absolute;
     width: 20%;
@@ -250,8 +272,8 @@ picture{
     background: url(.png); 
 }
 
-
-@media (max-width: 1500px) {
+/*Tentativa de deixar a página responsiva*/
+@media (max-width: 1024px) {
 
     .pagina{
         left: 10%;
@@ -262,11 +284,20 @@ picture{
         left: 70%;
     }
 
+    article{
+        top: 45%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .texto_about{
+        font-size: 15px;
+    }
+
     h1{
         font-size: 28px;
-        text-align: center;
-        top: 26%;
-        left: 39%;
+        
+        top: 250%;
     }
 
     ul{
@@ -285,41 +316,147 @@ picture{
 
     .foto_perfil{
         display: block;
-        left: 41%;
-        height: 120px;
-        width: 120px;
+        left: 42%;
+
     }
 
     .icon{
         width: 3%;
-        top:35%;
+        top: 20%;
     }
 
     .texto{
-        left: 9%;
+        left: 3%;
         top: 26%;
-        font-size: 8px;
+        font-size: 11px;
     }
     .github{
-        left: 31%;
+        left: 20%;
     }
 
     .instagram{
+        left: 38%;
+    }
+
+    .email{
         left: 58%;
     }
 
     .whatsapp{
         left: 84%;
-        font-size: 7px;
     }
 
     div{
-        height: 70%;
+        height: 62%;
+        width: 35%;
     }
 
 }
 
-@media (max-width: 426px) {
+@media (max-width:1157px) {
+    .texto_about{
+        font-size: 14.5px;
+    }
+
+    div > h3{
+        font-size: 16px;
+        left: 50%;
+    }
+
+    ul{
+        font-size: 15px;    
+        left: 45%;
+    }
+}
+
+@media (max-width:1300px) {
+    h3{
+        font-size: 22px;
+    }
+
+    ul{
+        top: 10%;
+    }
+
+    article{
+        top: 45%;
+        height: 52%;
+    }
+
+    .texto{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:933px) {
+    div{
+        height: 65%;
+        width: 45%;
+    }
+
+
+
+    .texto_about{
+        font-size: 12px;
+        margin-top: 12%;
+    }
+
+    .texto{
+        font-size: 9px;
+        top: 25%;
+        left: 4%;
+    }
+
+    .github{
+        left: 21%;
+    }
+
+    .instagram{
+        left: 38%;
+    }
+
+    .email{
+        left: 58%;
+    }
+
+    .whatsapp{
+        left: 84%;
+    }
+    
+}
+
+@media (max-width:700px) {
+    h3, div > h3{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    div > h3{
+        left: 52%;
+    }
+
+    ul{
+        left: 45%;
+        font-size: 14px;
+    }
+
+    .texto_about{
+        font-size: 11px;
+    }
+
+    .texto{
+        top: 22%;
+        font-size: 7px;
+    }
+
+    div{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 550px) {
 
     nav{
         height: 50px;
@@ -332,6 +469,7 @@ picture{
     .foto_perfil{
         height: 100px;
         width: 100px;
+        left: 40%;
         align-items: center;
     }
 
@@ -343,16 +481,16 @@ picture{
     }
 
     article{
-        height: 70%;
-        top: 25%;
+        height: 65%;
+        top: 30%;
 
     }
 
     div{
         top: 25%;
         left: -50px;
-        width: 50%;
-        height: 55%;
+        width: 42%;
+        height: 65%;
     }
 
     div > h3{
@@ -372,7 +510,7 @@ picture{
 
     h1{
         font-size: 20px;
-        top: 15%;
+        top: 190%;
         left: auto;
     }
 
@@ -434,36 +572,62 @@ picture{
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 490px) {
 
     .texto_about{
+        font-size: 9.3px;
+    }
+
+    article{
+        top: 40%;
+        height: 52%;
+    }
+
+    h1{
+        width: 80%;
+        left: 14%;
+    }
+
+    picture{
+        top: 12%;
+    }
+    
+    div{
+        height: 63%;
+    }
+
+    div > h3{
+        left: 35%;
+    }
+}
+
+@media (max-width:321px) {
+
+    .texto_about{
+        font-size: 9.4px;
+    }
+
+    .foto_perfil{
+        left: 36%;
+    }
+    h1{
+        left: 11%;
+    }
+
+    div{
+        width: 45%;
+        height: 60%;
+        
+    }
+
+    div > h3{
+        left: 38%;
         font-size: 10px;
     }
 
     article{
-        top: 30%;
-        height: 67%;
-    }
-    
-}
-
-@media (max-width:320px) {
-
-    .texto_about{
-        font-size: 9.5px;
-    }
-
-    div{
-        height: 59%;
-    }
-
-    div > h3{
-        left: 34%;
-    }
-
-    article{
-        height: 73%;
-        top: 25%;
+        height: 60%;
+        top: 35%;
     }
 
     article > h3{
@@ -471,10 +635,10 @@ picture{
     }
     
     .email{
-       font-size: 3.5px; 
-    }
-
-    .insta{
-        left:38%
-    }
+        font-size: 3.5px; 
+     }
+ 
+     .insta{
+         left:38%
+     }
 }

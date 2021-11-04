@@ -1,0 +1,910 @@
+/*Atributos Gerais do Site*/
+html, body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin: auto;
+    min-height: 3000px;
+    height: 100%;
+    width: 100%;
+
+    background: #3D3D3D;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    background: #0077B6;
+}
+
+/* Estilização das opções do nav*/
+.pagina{
+    position: absolute;
+    width: 10%;
+    height: 39px;
+    left: 15%;
+    top: 11px;
+    text-align:center ;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+}
+
+.pagina:hover{
+    background-color: #0088d0;
+    border-radius: 25px;
+}
+
+.curriculo{
+    left: 75%;
+}
+
+.foto_perfil{
+    display: block;
+    position: absolute;
+    width: 171px;
+    height: 171px;
+    align-items: center;
+    
+    left: 45%;
+    top: 16px;
+    border-radius: 100px;
+    margin: auto;
+
+    background: url(.jpg)
+}
+
+/*Meu nome*/
+h1{
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    top: 190px;
+    text-align: center;
+    
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+
+/*Estilização da área de objetivos*/
+.objetivos{
+    position: absolute;
+    width: 30%;
+    height: 12%;
+    left: 5%;
+    top: 8%;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.objetivos_lista{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    margin-top: 20%;
+
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 30px;
+    text-align:justify;
+
+    color: #FFFFFF;
+}
+
+/*Estilização da área de Histórico Acadêmico*/
+.hist_academico{
+    position: absolute;
+    width: 30%;
+    height: 12%;
+    right: 5%;
+    top: 8%;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.titulo{
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    margin-top: 20%;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.ufpe{
+    width: 110%;
+    font-size: 20.5px;
+}
+
+.subtitulo{
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    margin-top: 27%;
+
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.upe{
+    margin-top:37%;
+}
+
+.up{
+    width: 87%;
+    margin-top: 44%;
+}
+
+.colegio{
+    margin-top: 57%;
+}
+
+.col{
+    margin-top: 64%;
+}
+
+/*Estilização Conhecimentos*/
+.conhecimentos{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 5%;
+    top: 30%;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+/*Essa lista, estiliza tanto a lista de conhecimentos quanto a lista de softskills*/
+.lista{
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    margin-top: 20%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+/*Estilização softskills*/
+.softskills{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    right: 5%;
+    top: 30%;
+
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.soft{
+    line-height: 45px;
+}
+
+/*Estilização Certificações*/
+.certificacoes{
+    position: absolute;
+    width: 30%;
+    height: 28%;
+    left: 5%;
+    top: 52%;
+
+    background: #0077B6;
+    border-radius: 25px;
+
+}
+
+.certificacoes > h6{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 20%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+.certificacoes > p{
+    position: absolute;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: -7%;
+
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.certificacoes > ul{
+    position: absolute;
+    width: 100%;
+
+    margin-top: -1%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+/*Estilização Experiências*/
+.experiencias{
+
+    position: absolute;
+    width: 30%;
+    height: 28%;
+    right: 5%;
+    top: 52%;
+
+    background: #0077B6;
+    border-radius: 25px;
+
+}
+
+
+.atributo{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 20%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.desenvolvedor{
+    margin-top:55%;
+}
+
+.gestor{
+    margin-top: 45%;
+}
+
+.experiencias > p{
+    position: absolute;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: -8%;
+
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+
+.experiencias > ul{
+    position: absolute;
+    width: 80%;
+
+    margin-top: 2%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+/*Estilização Titúlos de todos os tópicos*/
+h3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    display: block;
+
+    color: #FFFFFF;
+}
+
+/*Estilização barra final, onde estão todos os links para contato*/
+footer{
+    position: absolute;
+    height: 46px;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    
+    background: #0077B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto{
+
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 3%;
+    top: 25%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    
+
+    text-align: center;
+
+    color: white;
+}
+
+.texto:hover{
+    font-weight: bold;
+}
+
+.icon{
+    position: absolute;
+    width: 2%;
+    left: 2%;
+    top: 15%;
+
+    background: url(.png);
+}
+
+.github{
+    left: 20%;    
+}
+
+.git{
+
+    left: 18%;
+}
+
+.instagram{
+
+    left: 38%;
+
+}
+
+.insta{
+
+    left: 36%;
+    }
+
+.email{
+    left: 57%;
+}
+
+.e-mail{
+    left: 54%;
+}
+
+.whatsapp{
+    left: 84%;
+}
+
+.whats{
+
+    left: 82%;
+
+}
+
+/*Estilização para botão dowload curriculo*/
+.dowload_curriculo{
+    position: absolute;
+    width: 45%;
+    height: 2%;
+    right: 25%;
+    top: 90%;
+
+    text-align: center;
+    padding-top: 15px;
+
+    color: white;
+    font-size: 28px;
+
+    text-decoration: none;
+    background: #0077B6;
+    border-radius: 25px;
+}
+
+.dowload_curriculo:hover{
+    font-weight: bold;
+}
+
+
+/*Tentativa de deixar a página responsiva*/
+@media (max-width: 1024px) {
+    .objetivos, .hist_academico{
+        top: 12%;
+    }
+
+    .objetivos_lista{
+        left: -3%;
+        top: 5%;
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .titulo{
+        top: 8%;
+        line-height: 16px;
+        font-size: 18px;
+    }
+
+    .subtitulo{
+        font-size: 10px;
+        width: 80%;
+        top: 12%;
+    }
+    .upe{
+        top: 17%;
+    }
+
+    .up{
+        top: 22%;
+    }
+    .colegio{
+        top: 27%;
+    }
+
+    .col{
+        top: 32%;
+    }
+
+    .lista{
+        font-size: 16px;
+        top: 8%;
+    }
+
+    .certificacoes > h6{
+        margin-top: 28%;
+    }
+
+    .atributo{
+        margin-top: 25%;
+    }
+
+    .desenvolvedor{
+        margin-top: 85%;
+    }
+
+    .gestor{
+        margin-top: 65%;
+    }
+    .experiencias > p{
+        width: 90%;
+        margin-top: -45px;
+        font-size: 10px;
+    }
+
+    .experiencias > ul{
+        font-size: 10px;
+        margin-top: -4%;
+    }
+
+    .icon{
+        width: 3%;
+        top: 20%;
+    }
+
+    .texto{
+        left: 3%;
+        top: 26%;
+        font-size: 11px;
+    }
+    .github{
+        left: 20%;
+    }
+
+    .instagram{
+        left: 38%;
+    }
+
+    .email{
+        left: 58%;
+    }
+
+    .whatsapp{
+        left: 84%;
+    }
+
+}
+
+@media (max-width: 868px) {
+    
+    .hist_academico > h3{
+        font-size: 22px;
+    }
+
+    .titulo{
+        top: 18%;
+        width: 80%;
+        line-height: 16px;
+        font-size: 13px;
+    }
+
+    .subtitulo{
+        font-size: 10px;
+        width: 80%;
+        top: 22%;
+    }
+    .upe{
+        top: 30%;
+    }
+
+    .up{
+        top: 33%;
+    }
+    .colegio{
+        top: 40%;
+    }
+
+    .col{
+        top: 43%;
+    }
+
+    .objetivos_lista{
+        font-size: 13px;
+    }
+
+    .softskills > ul{
+        font-size: 10px;
+    }
+
+    .lista{
+        font-size: 16px;
+        top: 8%;
+    }
+
+    .atributo{
+        font-size: 16px;
+        margin-top: 30%;
+    }
+
+    .desenvolvedor{
+        margin-top: 100%;
+    }
+
+    .gestor{
+        margin-top: 80%;
+    }
+
+    .experiencias > ul{
+        font-size: 9px;
+    }
+
+    .texto{
+        font-size: 9px;
+    }
+}
+
+@media (max-width:763px) {
+    
+}
+
+@media (max-width:500px) {
+    html{
+        height: 3000px;
+    }
+    nav{
+        height: 48px;
+    }
+
+    .pagina{
+       font-size: 18px;
+        left: 10%;
+    }
+    
+    .curriculo{
+        left: 70%;
+    }
+    
+    .foto_perfil{
+        width: 100px;
+        height: 100px;
+        left: 35%;
+    }
+    
+    h1{
+        font-size: 26px;
+        top: 190%;
+    }
+
+    .objetivos, .hist_academico, .softskills, .conhecimentos, .certificacoes, .experiencias,.dowload_curriculo{
+        width: 70%;
+        left: 15%;
+    }
+
+    .objetivos{
+        top: 8%;
+    }
+
+    .objetivos_lista{
+        font-size: 14px;
+        left: -7%;
+        top: 7%;
+    }
+
+    .hist_academico{
+        top: 21%;
+    }
+
+    .titulo{
+        font-size: 15px;
+        font-weight: 2px;
+        width: 100%;
+        top: 8%;
+    }
+
+    .subtitulo{
+        font-size: 10px;
+        width: 80%;
+        top: 9%;
+    }
+
+    .ufpe{
+        width: 100%;
+        line-height: 14px;
+        font-size: 12px;
+    }
+
+    .upe{
+        margin-top:50%;
+    }
+    
+    .up{
+        width: 80%;
+        margin-top: 58%;
+    }
+    .colegio{
+        margin-top: 85%;
+    }
+    
+    .col{
+        margin-top: 92%;
+    }
+    
+
+    .conhecimentos{
+        top: 34%;
+    }
+
+    .conhecimentos > ul{
+        top: 10%;
+        font-size: 16px;
+        left: -5%;
+    }
+
+    .softskills{
+        top: 50%;
+    }
+
+    .softskills > ul{
+        left: -5%;
+        width: 100%;
+        top: 10%;
+        font-size: 14px;
+    }
+
+    .certificacoes{
+        top: 66%;
+        width: 70%;
+        left: 15%;
+    }
+
+    .certificacoes > h6{
+        margin-top: 30%;
+        font-size: 14px;
+    }
+
+    .certificacoes > p{
+        line-height: 0px;
+        font-size: 11px;
+    }
+
+    .certificacoes >ul{
+        left: -12px;
+        font-size: 11px;
+    }
+
+
+    .experiencias{
+        top: 96%;
+    }
+
+    .atributo{
+        margin-top: 30%;
+        font-size: 16px;
+        line-height: 22px;
+    
+    
+        color: #FFFFFF;
+    }
+    
+    .desenvolvedor{
+        margin-top:90%;
+    }
+    
+    .gestor{
+        margin-top: 60%;
+    }
+    
+    .experiencias > p{
+        position: absolute;
+        width: 80%;
+        margin-left: 5%;
+        margin-top: -14%;
+    
+        font-size: 8px;
+        line-height: 17px;
+    }
+    
+    
+    .experiencias > ul{
+        position: absolute;
+        width: 70%;
+        margin-left: -7%;
+        margin-top: -2%;
+
+        font-size: 8px;
+        line-height: 20px;
+
+    }
+
+    .dowload_curriculo{
+        top: 125%;
+        font-size: 18px;
+    }
+
+
+    footer{
+        bottom: -140vmax;
+
+    }
+ 
+    .icon{
+        width: 3%;
+        top:35%;
+    }
+
+    .texto{
+        font-size: 4px;
+        left: 5%;
+        top: 20%;
+    }
+    .github{
+        left: 23%;
+    }
+
+    .git{
+        left: 19%;
+    }
+
+
+    .e-mail{
+        left: 56% ;
+    }
+
+    .instagram{
+        left: 41%;
+    }
+
+    .email{
+        font-size: 3.5px; 
+        left: 60%;
+     }
+ 
+     .insta{
+         left:38%
+     }
+
+    .whatsapp{
+        left: 85%;
+        font-style: bold;
+        font-size: 4px;
+    }
+
+    .whats{
+        left: 83%;
+    }
+    
+}
+
+@media (max-width:320px) {
+    .objetivos_lista{
+        line-height: 25px;
+    }
+    .desenvolvedor{
+        margin-top:125%;
+    }
+    
+    .gestor{
+        margin-top: 78%;
+    }
+
+    .titulo{
+        top: 20%;
+    }
+
+    .subtitulo{
+        top: 23%;
+    }
+    .upe{
+        top: 25%;
+    }
+    .up{
+        top: 29%;
+    }
+    .colegio{
+        top : 28%;
+    }
+    .col{
+        top: 32%;
+    }
+}

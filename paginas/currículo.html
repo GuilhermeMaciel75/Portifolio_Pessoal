@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilo_curriculo.css" rel="stylesheet">
+    <link href="/styles/estilo_curriculo.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Portifólio Guilherme</title>
 </head>
     <body>
-        <header>
-            <a href="projetos.html" class="aprojetos">Projetos</a>
-            <a href="index.html" class="ahome">Home</a>
-            <img src="pictures/Eu.png" alt="gui" class="foto_perfil">
-        </header>
+        <nav>
+            <a href="/paginas/currículo.html" class="pagina curriculo">Currículo</a>
+            <a href="..\index.html" class="pagina">Home</a>
+            <img src="/pictures/Eu.png" alt="gui" class="foto_perfil">
+            <h1>Guilherme Maciel</h1>
+        </nav>
         <main>
             <div1 class="objetivos">
                 <h3 class="objetivos_titulo">Objetivos</h3>
@@ -26,18 +28,18 @@
             </div1>
 
             <div2 class="hist_academico">
-                <h3 class="hist_academico_titulo">Histórico Acadêmico</h3>
-                <h6  class="titulo_ufpe">Universidade Federal de Pernambuco</h6>
-                <p class="texto_ufpe">Bacherelado em Ciências da Computação | Set. de 2021 - set de 2026</p>
-                <h6 class="titulo_upe">Universidade de Pernambuco</h6>
-                <p class="texto_upe">Bacherelado em Sistemas de Informação - Incompleto | Mar. de 2020 - set de 2021</p>
-                <h6 class="titulo_colegio">Colégio Diocesano de Caruaru</h6>
-                <p class="texto_colegio">Ensino Médio| Set. de 2021 - set de 2026</p>
+                <h3> Histórico Acadêmico</h3>
+                <h6  class="titulo ufpe">Universidade Federal de Pernambuco</h6>
+                <p class="subtitulo ">Bacherelado em Ciências da Computação | Set. de 2021 - set de 2026</p>
+                <h6 class="titulo upe">Universidade de Pernambuco</h6>
+                <p class="subtitulo up">Bacherelado em Sistemas de Informação - Incompleto | Mar. de 2020 - set de 2021</p>
+                <h6 class="titulo colegio">Colégio Diocesano de Caruaru</h6>
+                <p class="subtitulo col">Ensino Médio| Set. de 2021 - set de 2026</p>
             </div2>
 
             <div3 class="conhecimentos">
                 <h3 class="conhecimento_titulo">Conhecimentos</h3>
-                <ul class="lista_conhecimentos">
+                <ul class="lista">
                     <li>Python</li>
                     <li>C</li>
                     <li>C#</li>
@@ -52,7 +54,7 @@
             
             <div4 class="softskills">
                 <h3 class="titulo_soft">SoftSkills</h3>
-                <ul class="lista_soft">
+                <ul class="lista soft">
                     <li>Comunicatico</li>
                     <li>Sabe trabalhar em Grupo</li>
                     <li>Rápida Aprendizagem</li>
@@ -103,51 +105,59 @@
             <div6 class="experiencias">
                 <h3>Experiências</h3>
 
-                <h6>Estudo Python</h6>
+                <h6 class="atributo">Estudo Python</h6>
                 <ul>
                     <li>Desenvolvimento de aplicações que consomem APIs e fornecem gráficos e informações a partir dos dados coletados</li>
                     <li>Desenvolvimento de aplicações utilizando inteligência artificial + Machine learning utilizando alogirtimo KNN e SVM</li>
+                    <li>Além da resolução de diversos exercícios ao longo do estudo, para fixação do conteúdo e na formação da lógica de programação</li>
                 </ul>
 
-                <h6>Desenvolvedor Full Stack</h6>
-                <p>Disciplina de LPA 2 - UPE | Fev. de 2021 - Mai. de 2021</p>
+                <h6 class="atributo desenvolvedor">Desenvolvedor Full Stack</h6>
+                <p >Disciplina de LPA 2 - UPE | Fev. de 2021 - Mai. de 2021</p>
                 <ul>
                     <li>Durante o desenvolver da disciplina, trabalhei em grupo para desenvolver um sistema para mini mercado</li>
                     <li>Foi utilizado C# como linguagem de programação e PostegreSQL para colocar a aplicação em um banco de dados</li>
                 </ul>
 
-                <h6>Gestor de Projetos</h6>
-                <p>Turma de introdução a Tecnologia da Informação| Jan. de 2017 - Nov. de 2018</p>
-                <ul>
+                <h6 class="atributo gestor">Gestor de Projetos</h6>
+                <p class="info">Turma de introdução a Tecnologia da Informação| Jan. de 2017 - Nov. de 2018</p>
+                <ul class="lista_gestor">
                     <li>Disciplina ofertada no Ensino Médio, que lecionou sobre o básico de computação e da cultura maker</li>
                     <li>Ajudei a gerenciar e executa os projetos da disciplina</li>
                     <li>Durante a disciplina, o principal projeto executado foi a criação de torres de carregamento de celulares para a instituição de ensino</li>
                 </ul>
 
             </div6>
-
-           <a class="dowload_curriculo" href="google.com">Dowload e visualização do currículo</a>
+            <div7>
+                <a class="dowload_curriculo" href="https://drive.google.com/file/d/15gCUc24dCIUONVwYvXHeoxZsWosN3j8V/view?usp=sharing" target="_blank">Dowload Curriculo</a> 
+            </div7>
+            
         </main>
         <footer>
-            <a href="https://www.linkedin.com/in/guilherme-maciel-b04670209/" class="linkedin" target="_blank">Guilherme Maciel</a>
+            <a href="https://www.linkedin.com/in/guilherme-maciel-b04670209/" class="texto" target="_blank">Guilherme Maciel</a>
             <a href="https://www.linkedin.com/in/guilherme-maciel-b04670209/" target="_blank"> 
-                <img src="/Portif-lio_Site/pictures/logotipo-do-linkedin.png" alt="linkedin" class="linkedin_icon">
+                <img src="/pictures/logotipo-do-linkedin.png" alt="icon" class="icon">
             </a>
             
-            <a href="https://github.com/GuilhermeMaciel75" class="github" target="_blank">@GuilhermeMaciel75</a>
+            <a href="https://github.com/GuilhermeMaciel75" class="texto github" target="_blank">@GuilhermeMaciel75</a>
             <a href="https://github.com/GuilhermeMaciel75" target="_blank">
-                <img src="/Portif-lio_Site/pictures/github.png" alt="github_icon" class="github_icon">
+                <img src="/pictures/github.png" alt="incon github" class="icon git">
+            </a>
+
+            <a href="to:guilhermemacielmelo75@hotmail.com" class="texto email" target="_blank">guilhermemacielmelo75@hotmail.com</a>
+            <a href="to:guilhermemacielmelo75@hotmail.com" target="_blank">
+                <img src="/pictures/o-email.png" alt="e-mail" class="icon e-mail">
             </a>
             
 
-            <a href="https://www.instagram.com/guilhermemaciiel/" class="instagram" target="_blank">@GuilhermeMaciiel</a>
+            <a href="https://www.instagram.com/guilhermemaciiel/" class="texto instagram" target="_blank">@GuilhermeMaciiel</a>
             <a href="https://www.instagram.com/guilhermemaciiel/" target="_blank">
-                <img src="/Portif-lio_Site/pictures/instagram.png" alt="instagram_icon" class="instagram_icon">
+                <img src="/pictures/instagram.png" alt="icon instagram" class="icon insta">
             </a>
             
 
-            <a class="whatsapp">+55 (81) 99675-4886</a>
-            <img src="/Portif-lio_Site/pictures/whatsapp.png" class="whatsapp_icon">
+            <a class="texto whatsapp" href="tel:81996754886">+55 (81) 99675-4886</a>
+            <img src="/pictures/whatsapp.png" class="icon whats">
         </footer>
     </body>
 </html>
